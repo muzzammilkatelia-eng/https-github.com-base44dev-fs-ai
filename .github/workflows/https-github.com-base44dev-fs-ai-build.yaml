@@ -45,7 +45,7 @@ jobs:
       - name: Store deployment content
         uses: ionos-deploy-now/artifact-action@v1
         with:
-          api-key: ${{ 014a58734f704b3fa254d3fb843ce371}}
+          api-key: ${{Hume_API_Key}
           service-host: api-eu.ionos.space
           project-id: ef6b6dcc-61ec-45e6-b56a-5f824ecde83c
           branch-id: ${{ inputs.branch-id }}
